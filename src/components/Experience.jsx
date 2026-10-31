@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { BriefcaseBusiness, GraduationCap } from "lucide-react";
+import { BriefcaseBusiness } from "lucide-react";
 
 const roles = [
   { date: "2026 — PRESENT", role: "AI Automation & Product Engineer", company: "Tata Consultancy Services", kind: "CURRENT ROLE", details: ["Developing AI-powered automation and agentic workflows for business problems.", "Exploring multi-agent patterns and LLM application development with Java and Python.", "Working across product engineering, analytics, and cloud-based systems."] },

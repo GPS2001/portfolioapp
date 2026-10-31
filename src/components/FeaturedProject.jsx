@@ -13,7 +13,7 @@ export default function FeaturedProject() {
         </div>
         <motion.article className="featured-card" initial={{ opacity: 0, y: 22 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: .15 }} transition={{ duration: .5 }}>
           <div className="featured-visual" aria-label="Abstract CodeBuddy project preview" role="img">
-            <div className="featured-window"><div className="window-dots"><i /><i /><i /></div><div className="featured-terminal mono"><span className="terminal-muted">// CODEBUDDY</span><br /><span className="terminal-green">const</span> workflow = <span className="terminal-purple">"build → test → learn"</span>;<br /><span className="terminal-green">await</span> makeSomethingUseful();<br /><span className="terminal-cursor">▍</span></div></div>
+            <div className="featured-window"><div className="window-dots"><i /><i /><i /></div><div className="featured-terminal mono"><span className="terminal-muted"></span><br /><span className="terminal-green">const</span> workflow = <span className="terminal-purple">"build → test → learn"</span>;<br /><span className="terminal-green">await</span> makeSomethingUseful();<br /><span className="terminal-cursor">▍</span></div></div>
             <span className="featured-visual-caption mono"><Sparkles size={14} /> DEVELOPER TOOLING / CONCEPT PREVIEW</span>
           </div>
           <div className="featured-details">
